@@ -31,7 +31,7 @@ public class Person {
         return age;
     }
     public boolean isTeen(){
-        return this.age > 13 && this.age < 19;
+        return this.age >= 13 && this.age <= 19;
     }
 
 }
